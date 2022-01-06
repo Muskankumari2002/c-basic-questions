@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    string f_name,l_name;
+    cout<<"Input First name: "<<endl;
+    cin>>f_name;
+    cout<<"Input last number: "<<endl;
+    cin>>l_name;
+    cout<<l_name<<" "<<f_name;
+    return 0;
+
+}
