@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int radius,height;
+    float volume;
+    cout<<"enter the radius"<<endl;
+    cin>>radius;
+    cout<<"enter the height"<<endl;
+    cin>>height;
+    volume= 3.14*radius*radius*height;
+    cout<<"volume of cylinder is: "<<volume;
+    return 0;
+
+}
