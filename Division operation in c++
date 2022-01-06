@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int div,d,q,r;
+    cout<<"Input the divident:"<<endl;
+    cin>>div;
+    cout<<"Input the divisor: "<<endl;
+    cin>>d;
+    q=div/d;
+    r=div%d;
+    cout<<"The quotient of the division is: "<<q<<endl;
+    cout<<"The remainder of the division is "<<r<<endl;
+    return 0;
+}
