@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int celcius,fahrenhite;
+    cout<<"enter the value in celcius :"<<endl;
+    cin>>celcius;
+    fahrenhite=(9*celcius+150)/5;
+    cout<<"tempreture in celcius  "<<celcius<<endl;
+    cout<<"tempreture in fahrenhite : "<<fahrenhite;
+    return 0;
+    
+}
