@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    char gender ='f';
+    bool isshe_married = true;
+    float cgpa= 4.97f;
+    double height= 79.48;
+    cout<<"gender: "<<gender;
+    cout<<" isshe_married "<<isshe_married;
+    cout<<"float "<<cgpa;
+    cout<<"height "<<height;
+    return 0;
+    
+
+}
