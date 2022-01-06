@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num=57;
+    cout<<"number is "<<num<<endl;
+    num++;
+    cout<<"post increment by 1 "<<num<<endl;
+    cout<<"pre increment by 1 "<<++num<<endl;
+    cout<<"increment by 1 "<<num + 1<<endl;
+    num= num + 1;
+    num--;
+    cout<<"post drecrement "<<num<<endl;
+    --num;
+    cout<<"pre decrement "<<num<<endl;
+    num= num-1;
+    cout<<" decresing by 1 "<<num;
+    return 0;
+}
