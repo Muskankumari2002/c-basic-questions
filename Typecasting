@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a=21.5;
+    int b=5;
+    float divide;
+    divide=a/b;
+    cout<<divide<<endl;
+    cout<<(int)a<<endl;
+    cout<<a<<endl;
+    cout<<(float)b;
+    return 0;
+}
