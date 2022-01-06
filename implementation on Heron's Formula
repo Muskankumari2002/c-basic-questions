@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+#include<math.h>
+int main()
+{
+    int a,b,c;
+    double s,area;
+    cout<<"enter the 1st side of triangle:"<<endl;
+    cin>>a;
+    cout<<"enter the 2nd side of triangle:"<<endl;
+    cin>>b;
+    cout<<"enter the 3rd side of triangle:"<<endl;
+    cin>>c;
+    s=(a+b+c)/2.0;
+    area=sqrt(s*(s-a)*(s-b)*(s-c));
+    cout<<"area of triangle using heron's formula :"<<area;
+    return 0;
+
+
+}
+
