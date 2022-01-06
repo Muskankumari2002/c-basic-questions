@@ -1,0 +1,17 @@
+#include<iostream>
+#include<climits>
+using namespace std;
+int main()
+{
+cout<<"max int "<<INT64_MAX<<endl;
+cout<<"min int "<<INT64_MIN<<endl;
+cout<<"usigned int "<<UINT64_MAX<<endl;
+cout<<"long long "<<LLONG_MAX<<endl;
+cout<<"char "<<CHAR_MAX<<endl;
+cout<<"char min "<<CHAR_MIN<<endl;
+cout<<"signed char "<<SCHAR_MIN<<endl;
+cout<<"signed char "<<SCHAR_MIN<<endl;
+cout<<"unsigned long char "<<UCHAR_MAX<<endl;
+cout<<"unsigned short char "<<USHRT_MAX;
+    return 0;
+}
