@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num, index = 0;
+    cout << "enter the number: " << endl;
+    cin >> num;
+    do
+    {
+        cout<<index+1;
+        index = index + 1; /* code */
+    
+    } while (index < num);
+    return 0;
+}
