@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,k,alice=0,bob=0;
+    int a[3],b[3],c[2];
+    for(i=0;i<3;i++)
+    {
+     cin>>a[i];
+    }
+    for(j=0;j<3;j++)
+    {
+     cin>>b[j];
+    }
+    for( k=0;k<3;k++)
+    {
+     if(a[i]>b[j])
+     {
+     alice++;
+     }
+     else if(a[i]<b[j])
+     {
+     bob++;
+     }
+     else
+     {
+         
+     }
+     cout<<c[k];
+    }
+    cout<<alice<<bob;
+    return 0;
+}
