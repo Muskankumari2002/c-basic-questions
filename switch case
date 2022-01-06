@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+// jab ham switch case use krte hai tb hai sirf int or char datatype le skte hai.
+int main()
+{
+    int marks;
+    cout<<"enter your marks"<<endl;
+    cin>>marks;
+    switch (marks)
+    {
+    case 60:
+        cout<<"your grade is c ";
+        break;
+    case 80:
+        cout<<"your grade is B ";
+        break;
+    case 90:
+        cout<<"Your grade is A ";
+        break;
+    
+    default:
+    cout<<"fail ";
+        break;
+    }
+    return 0;
+}
