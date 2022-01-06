@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,cube;
+    cout<<"enter the side of cube";
+    cin>>a;
+    cube= a*a*a;
+    cout<<"volume of cube is: "<<cube;
+    return 0;
+
+}
