@@ -1,0 +1,16 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    float a,b,angle,area;
+    cout<<"the length of side of triangle :"<<endl;
+    cin>>a;
+    cout<<" the length of another side of triangle :"<<endl;
+    cin>>b;
+    cout<<"angle between by sides: "<<endl;
+    cin>>angle;
+    area=(a*b*sin(3.14*angle/180))/2;
+    cout<<"area of triangle :"<<area<<endl;
+    return 0;
+}
