@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,sum=0;
+    cin>>n;
+    int arr[n];
+    cout<<"enter the elements in an array"<<endl;
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    cout<<"elements in the array are: "<<endl;
+    for(int i=0;i<n;i++)
+    {
+        cout<<" "<<arr[i];
+    }
+    cout<<endl;
+    for(int i=0;i<n;i++)
+    {
+        sum+=arr[i];
+        
+    }
+    cout<<sum<<endl;
+    return 0;
+}
